@@ -1,0 +1,70 @@
+body {
+    color: white;
+    font-family: 'dana';
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: dana;
+    src: url('./font/DanaYadAlefAlefAlef-Normal.woff');
+  }
+
+.wrapper {
+    position: relative;
+}
+
+.texts {
+    position: absolute;
+    top: 2vh;
+    left: 3vw;
+    font-size: 1em;
+    width: 36vw;
+    text-align: center;
+}
+
+h1 {
+    font-size: 77px;
+    /*padding-bottom: 0.5em;*/
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 0.8;
+    padding-bottom: 4.75vh;
+}
+
+p {
+    font-size: 2.75em;
+}
+
+.second-line {
+    line-height: 47px;
+}
+
+.block1 {
+    padding-bottom: 3.5em;
+}
+
+.block2 {
+    padding-bottom: 2.75em;
+
+}
+
+
+.block3 .second-line  {
+    line-height: 55px;
+}
+
+.footer {
+    padding-top: 2.8em;
+    font-size: 28px;
+}
+
+.phone-number {
+    font-size: 43px;
+    line-height: 1.1;
+}
