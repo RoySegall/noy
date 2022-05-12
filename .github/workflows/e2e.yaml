@@ -11,3 +11,4 @@ jobs:
                 node-version: '14'
             - run: npm install -g @testim/testim-cli
             - run: testim --token "xFRwL30HU5uhSXjQlCQQFFn2fAfZcW93SGgljN7IhJpbKF7pGH" --project "IcDixRshyoUQzL2Glv26" --grid "Testim-Grid"
+
